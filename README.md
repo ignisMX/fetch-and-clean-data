@@ -1,2 +1,2 @@
 # fetch-and-clean-data
-Return a object with values > 50
+Count how many items exist that have an age equal to or greater than 50, and print this final value.
