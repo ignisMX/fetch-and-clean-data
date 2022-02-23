@@ -8,8 +8,9 @@ https.get(url, (response) => {
     });
 
     response.on('end',() => {
-        console.log(body);
-
+        let data = JSON.parse(body).data;
+        data = `${data}`.split(',');
+        console.log(data);
         return body;
     });
 });
